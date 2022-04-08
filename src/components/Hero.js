@@ -14,7 +14,7 @@ const Hero = () => {
             </div>
 
             <div className='md:w-1/2 justify-center flex'>
-              <img src='https://raw.githubusercontent.com/Techillionaire/porfolio-website-react-latest/master/src/assets/hero.png' alt='' className='w-90 h-90 ' />
+              <img src='https://raw.githubusercontent.com/Techillionaire/porfolio-website-react-latest/cbdd8ddb16ff02a09721d4eac39b1b9ca6aaa2af/src/assets/office-workplace.svg' alt='' className='w-90 h-90 ' />
 
             </div>
         </div>
