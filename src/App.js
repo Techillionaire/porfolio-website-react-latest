@@ -1,11 +1,12 @@
 import React from 'react'
 import About from './components/About'
 import Footer from './components/Footer'
-// import Contact from './components/Contact'
+import Contact from './components/Contact'
 import Hero from './components/Hero'
 import Nav from './components/Nav'
 // import Projects from './components/Projects'
 import Testimonials from './components/Testimonials'
+import './App.css'
 
 const App = () => {
   return (
@@ -15,7 +16,7 @@ const App = () => {
       <About />
       {/* <Projects /> */}
       <Testimonials />
-      {/* <Contact /> */}
+      <Contact />
       <Footer />
     </div>
   )

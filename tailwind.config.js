@@ -3,6 +3,9 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    minHeight: {
+      '1/2': '50%',
+    },
     // screens:{
     //   sm: '480px',
     //   md: '768px',
