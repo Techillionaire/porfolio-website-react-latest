@@ -7,7 +7,9 @@ const Footer = () => {
         <div className='container flex flex-col-reverse justify-between px-6 mx-auto space-y-8 md:flex-row md:space-y-0 md:py-12'>
             <div className='flex flex-col-reverse items-center justify-between space-y-6 pb-6 md:flex-row md:justify-between md:space-x-80 md:space-y-0 '>
                 <div>
+                    
                     <a href='/' className='logo font-light text-center text-base space-y-4 md:font-bold md:font-2xl'>Techillionaire.</a>
+                    <p>Techillionaire@gmail.com</p>
                 </div>
                 <div className='flex justify-between space-x-6 py-6 md:space-x-40'>
                     <a href='https://github.com/Techillionaire' target='_blank' className=''>

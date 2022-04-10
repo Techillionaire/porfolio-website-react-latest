@@ -15,7 +15,7 @@ const About = () => {
 
             <div className="flex flex-col space-y-6 md:w-1/2">
             <h2 className="max-w-md text-3xl font-bold text-center">Pro Skills</h2>
-                <div className="flex flex-col space-y-2 md:space-y-0 md:space-x-6 md:flex-row px-4">
+                <div className="flex flex-col space-y-2 md:space-y-0 md:space-x-6 md:flex-row px-2">
                     
                     <div className="rounded-l-full bg-blue-300 md:bg-transparent">
                         <div className="flex items-center space-x-2">
@@ -32,7 +32,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col space-y-2 md:space-y-0 md:space-x-6 md:flex-row px-4">
+                <div className="flex flex-col space-y-2 md:space-y-0 md:space-x-6 md:flex-row px-2">
                     
                     <div className="rounded-l-full bg-blue-300 md:bg-transparent">
                         <div className="flex items-center space-x-2">
@@ -48,7 +48,7 @@ const About = () => {
                         <p className="text-gray-500">lorem ipsum dolor lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip</p>
                     </div>
                 </div>
-                <div className="flex flex-col space-y-2 md:space-y-0 md:space-x-6 md:flex-row px-4">
+                <div className="flex flex-col space-y-2 md:space-y-0 md:space-x-6 md:flex-row px-2">
                     
                     <div className="rounded-l-full bg-blue-300 md:bg-transparent">
                         <div className="flex items-center space-x-2">
@@ -60,11 +60,11 @@ const About = () => {
                     </div>
 
                     <div className="space-y-2">
-                        <h4 className="hidden  text-lg-2 font-normal md:flex text-2xl">Mobile app development</h4>
+                        <h4 className="hidden  text-lg-2 font-normal md:flex text-2xl">Mobile App development</h4>
                         <p className="text-gray-500">lorem ipsum dolor lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip</p>
                     </div>
                 </div>
-                <div className="flex flex-col space-y-2 md:space-y-0 md:space-x-6 md:flex-row px-4">
+                <div className="flex flex-col space-y-2 md:space-y-0 md:space-x-6 md:flex-row px-2">
                     
                     <div className="rounded-l-full bg-blue-300 md:bg-transparent">
                         <div className="flex items-center space-x-2">

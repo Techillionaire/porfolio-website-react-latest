@@ -16,7 +16,7 @@ const Nav = () => {
                 <a href='' className='hover:text-blue-500'>Blog</a>
             </div>
 
-            <a href='' className='hidden md:flex p-3 px-6 text-white bg-blue-400 rounded-full baseline hover:bg-blue-300'>Contact Me</a>
+            <a href='' className='hidden md:flex btn font-normal p-2 text-blue-400 sm:w-100 hover:outline-blue-300 hover:outline outline hover:text-white outline-blue-200 hover:bg-blue-400 '>Contact Me</a>
         </div>
     </nav>
   )
