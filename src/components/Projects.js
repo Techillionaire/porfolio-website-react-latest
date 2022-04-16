@@ -1,80 +1,31 @@
 import React from 'react'
-import Carousel from './Carousel'
 
-const Projects = () => {
-
-  
+const Projects = ({ img, link, appName }) => {
 
   return (
-    <section id='projects'>
-      <div className='container max-w-6xl px-3 my-3 mx-auto mt-10 text-center'>
-            <h2 className='text-4xl font-bold text-center -mb-10'>Projects</h2>
-
-            <div className='flex flex-col mt-24 md:flex-row md:space-x-6'>
-                <div className='flex flex-col items-center p-8 space-y-5 rounded-lg bg-gray-100 md:w-1/3'>
-                    <img src='https://whoosh.com.ng/wp-content/uploads/2021/03/Adeposi-Bamiduro--150x150.jpg' className='w-20 rounded-full'  alt='posiImg' />
-                    <div className='flex'>
-                        <h3 className='text-lg font-bold mr-5 '>Adeposi Bamiduro  </h3>
-                        
-                    </div>
-                    <p className='text-grey font-light italic'>lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip</p>
-                    <h5 className='font-normal'>Solutions Architect</h5>
-                </div>
-                <div className='hidden md:flex flex-col items-center p-8 space-y-5 rounded-lg bg-gray-100 md:w-1/3'>
-                    <img src='https://media-exp1.licdn.com/dms/image/C4D03AQHsRvzCtOkcBg/profile-displayphoto-shrink_200_200/0/1642267868373?e=2147483647&v=beta&t=xS7YKUE-sTPq1csugC7-r4wEwXOYnLGZgUkDDDZek1Q' className='w-20 rounded-full'  alt='posiImg' />
-                    <div className='flex'>
-                        <h3 className='text-lg font-bold mr-5 '>Adebola Ogunmolu</h3>
-                        
-                    </div>
-                    <p className='text-grey font-light italic'>lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip</p>
-                    <h5>HR. Consultant</h5>
-                </div>
-
-                <div className='hidden md:flex flex-col items-center p-8 space-y-5 rounded-lg bg-gray-100 md:w-1/3'>
-                    <img src='https://media-exp1.licdn.com/dms/image/C4D03AQFfuWfG6-QCdw/profile-displayphoto-shrink_200_200/0/1548152692067?e=1652918400&v=beta&t=asoNaWwRjB_eFCAvuls3MH0HTHgI6OGO58Nj1RxyFc4' className='w-20 rounded-full'  alt='posiImg' />
-                    <div className='flex'>
-                        <h3 className='text-lg font-bold mr-5 '>Ebenezer Ugo</h3>
-                        
-                    </div>
-                    <p className='text-grey font-light italic'>lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip</p>
-                    <h5>Sr. Software Developer</h5>
-                </div>
+    <div className="w-80 justify-center h-60 mx-5  my-3 rounded-t-lg border overflow-hidden">
+        <div className="h-6 bg-blue-400 items-center">
+          <div className='flex items-center justify-between'>
+            <div className='flex'>
+              <div className="w-1.5 h-1.5 rounded-full m-1 bg-gray-100"></div>
+              <div className="w-1.5 h-1.5 rounded-full m-1 bg-gray-100"></div>
+              <div className="w-1.5 h-1.5 rounded-full m-1 bg-gray-100"></div>
             </div>
+            
 
-            <div className='flex flex-col mt-6 mb-16 md:flex-row md:space-x-6'>
-                <div className='flex flex-col items-center p-8 space-y-5 rounded-lg bg-gray-100 md:w-1/3'>
-                    <img src='https://whoosh.com.ng/wp-content/uploads/2021/03/Adeposi-Bamiduro--150x150.jpg' className='w-20 rounded-full'  alt='posiImg' />
-                    <div className='flex'>
-                        <h3 className='text-lg font-bold mr-5 '>Adeposi Bamiduro  </h3>
-                        
-                    </div>
-                    <p className='text-grey font-light italic'>lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip</p>
-                    <h5 className='font-normal'>Solutions Architect</h5>
-                </div>
-                <div className='hidden md:flex flex-col items-center p-8 space-y-5 rounded-lg bg-gray-100 md:w-1/3'>
-                    <img src='https://media-exp1.licdn.com/dms/image/C4D03AQHsRvzCtOkcBg/profile-displayphoto-shrink_200_200/0/1642267868373?e=2147483647&v=beta&t=xS7YKUE-sTPq1csugC7-r4wEwXOYnLGZgUkDDDZek1Q' className='w-20 rounded-full'  alt='posiImg' />
-                    <div className='flex'>
-                        <h3 className='text-lg font-bold mr-5 '>Adebola Ogunmolu</h3>
-                        
-                    </div>
-                    <p className='text-grey font-light italic'>lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip</p>
-                    <h5>HR. Consultant</h5>
-                </div>
-
-                <div className='hidden md:flex flex-col items-center p-8 space-y-5 rounded-lg bg-gray-100 md:w-1/3'>
-                    <img src='https://media-exp1.licdn.com/dms/image/C4D03AQFfuWfG6-QCdw/profile-displayphoto-shrink_200_200/0/1548152692067?e=1652918400&v=beta&t=asoNaWwRjB_eFCAvuls3MH0HTHgI6OGO58Nj1RxyFc4' className='w-20 rounded-full'  alt='posiImg' />
-                    <div className='flex'>
-                        <h3 className='text-lg font-bold mr-5 '>Ebenezer Ugo</h3>
-                        
-                    </div>
-                    <p className='text-grey font-light italic'>lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip</p>
-                    <h5>Sr. Software Developer</h5>
-                </div>
+            <div className='pe-4 font-bold text-sm mt-0.5'>
+              <p className='text-gray-100'>{appName}</p>
             </div>
+          </div>
+
+            
+          
+          
+          <a href={link} target="_blank" className="p-3 mt-80">
+            <img src={img} alt='' className="w-full	object-contain" />
+          </a>
         </div>
-      
-
-    </section>
+    </div>
   )
 }
 

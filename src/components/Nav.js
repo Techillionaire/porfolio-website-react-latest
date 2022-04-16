@@ -9,11 +9,11 @@ const Nav = () => {
             </div>
 
             <div className='hidden md:flex space-x-6'>
-                <a href='' className='hover:text-blue-500'>Home</a>
-                <a href='' className='hover:text-blue-500'>About Me</a>
-                <a href='' className='hover:text-blue-500'>Projects</a>
-                <a href='' className='hover:text-blue-500'>Testimonials</a>
-                <a href='' className='hover:text-blue-500'>Blog</a>
+                <a href='' className='hover:text-blue-400'>Home</a>
+                <a href='' className='hover:text-blue-400'>About Me</a>
+                <a href='' className='hover:text-blue-400'>Projects</a>
+                <a href='' className='hover:text-blue-400'>Testimonials</a>
+                <a href='' className='hover:text-blue-400'>Blog</a>
             </div>
 
             <a href='' className='hidden md:flex btn font-normal p-2 text-blue-400 sm:w-100 hover:outline-blue-300 hover:outline outline hover:text-white outline-blue-200 hover:bg-blue-400 '>Contact Me</a>
