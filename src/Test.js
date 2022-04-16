@@ -7,6 +7,7 @@ export const testimonials = [
         position: 'Solution Architect',
         name: 'Adeposi Bamiduro',
         comment: 'Lorem Ipsumm lorem lorem lorem Lorem Ipsumm lorem lorem lorem',
+        link: 'https://www.linkedin.com/in/adeposi-bamiduro-70925448/',
     },
     {
         id: 2,
@@ -14,6 +15,7 @@ export const testimonials = [
         position: 'HR Consultant',
         name: 'Adebola Ogunmolu',
         comment: 'Lorem Ipsumm lorem lorem lorem Lorem Ipsumm lorem lorem lorem',
+        link: 'https://www.linkedin.com/in/adebolaogunmolu/',
     },
     {
         id: 3,
@@ -21,5 +23,6 @@ export const testimonials = [
         position: 'Software Engineer',
         name: 'Ebenezer ugo',
         comment: 'Lorem Ipsumm lorem lorem lorem Lorem Ipsumm lorem lorem lorem',
+        link: 'https://www.linkedin.com/in/ebenezer-ugo/',
     },
 ]
