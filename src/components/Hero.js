@@ -10,7 +10,7 @@ const Hero = () => {
                 <p className='max-w-md text-2xl font-light text-center md:text-start md:text-3xl md:text-start'>I design and build user-friendly, interactive and responsive web and mobile applications.</p>
             
                 <div className='flex justify-center md:justify-start md:ml-40'>
-                  <button className='btn font-normal p-2 text-blue-400 sm:w-100 hover:outline-blue-300 hover:outline outline hover:text-white outline-blue-200 hover:bg-blue-400 '>Drop a message</button>
+                  <button className='btn font-normal p-2 text-blue-400 sm:w-100 hover:outline-blue-300 hover:outline outline hover:text-white outline-blue-200 hover:bg-blue-400 '>My resume</button>
                 </div>
 
             </div>
