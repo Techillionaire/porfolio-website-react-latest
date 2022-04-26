@@ -1,9 +1,10 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
 
   const formRef = useRef()
+  const [ done, setDone ] = useState(false)
 
   const handleSubmit = (e) => {
     e.preventDefault(e)
@@ -11,6 +12,7 @@ const Contact = () => {
     emailjs.sendForm('service_ha5qpng', 'template_emd4i4g', formRef.current, '1BxZpTTGfCmtTXvFy')
       .then((result) => {
           console.log(result.text);
+          setDone(true)
       }, (error) => {
           console.log(error.text);
       });
@@ -29,12 +31,13 @@ const Contact = () => {
           <h2 className="max-w-md text-3xl font-bold text-center  -mt-14 md:mt-0  py-4">Contact</h2>
 
           <form ref={formRef} onSubmit={handleSubmit} className='flex flex-col space-y-6 md:space-y-4 md:mt-8'>
-            <input type="text" className="placeholder:text-slate-400 block bg-gray-100 w-full  border-slate-300 border-0 rounded-md p-3 shadow-sm focus:outline-none" placeholder="Name"/>
-            <input type="text" className="placeholder:text-slate-400 block bg-gray-100 border-0 w-full  border-slate-300 rounded-md p-3 shadow-sm focus:outline-none focus:border-blue-500 focus:ring-blue-400 focus:ring-1 sm:text-sm" placeholder="Subject"/>
-            <input type="email" className="placeholder:text-slate-400 block bg-gray-100 w-full border-0 border-slate-300 rounded-md p-3 shadow-sm focus:outline-none focus:border-blue-500 focus:ring-blue-400 focus:ring-1 sm:text-sm" placeholder="Email"/>
-            <textarea className='placeholder:text-slate-400 block bg-gray-100 w-full border-0 border-slate-300 rounded-md p-4 shadow-sm focus:outline-none focus:border-blue-500 focus:ring-blue-400 focus:ring-1 sm:text-sm min-h-[50%]' placeholder="Enter your message"/>
+            <input type="text" name="user_name" className="placeholder:text-slate-400 block bg-gray-100 w-full  border-slate-300 border-0 rounded-md p-3 shadow-sm focus:outline-none" placeholder="Name"/>
+            <input type="text" name="user_subject"className="placeholder:text-slate-400 block bg-gray-100 border-0 w-full  border-slate-300 rounded-md p-3 shadow-sm focus:outline-none focus:border-blue-500 focus:ring-blue-400 focus:ring-1 sm:text-sm" placeholder="Subject"/>
+            <input type="email" name="user_email" className="placeholder:text-slate-400 block bg-gray-100 w-full border-0 border-slate-300 rounded-md p-3 shadow-sm focus:outline-none focus:border-blue-500 focus:ring-blue-400 focus:ring-1 sm:text-sm" placeholder="Email"/>
+            <textarea name='message' className='placeholder:text-slate-400 block bg-gray-100 w-full border-0 border-slate-300 rounded-md p-4 shadow-sm focus:outline-none focus:border-blue-500 focus:ring-blue-400 focus:ring-1 sm:text-sm min-h-[50%]' placeholder="Enter your message"/>
             <div className='flex justify-center'>
               <button  className='p-3 px-14 text-white bg-blue-400 w-full text-center rounded baseline hover:bg-blue-300'>Send</button>
+              {done && "Thank you, I'll get back to you shortly..."}
             </div>
           </form>
 

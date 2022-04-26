@@ -21,8 +21,8 @@ const Projects = ({ img, link, appName }) => {
             
           
           
-          <a href={link} target="_blank" className="p-3 mt-80">
-            <img src={img} alt='' className="w-full	object-contain" />
+          <a href={link} target="_blank" className="p-3">
+            <img src={img} alt='' className="w-full	object-contain -mt-6" />
           </a>
         </div>
     </div>

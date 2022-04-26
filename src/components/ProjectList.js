@@ -10,6 +10,8 @@ const ProjectList = () => {
             {/* <p className='plDescription mx-20 my-4'>Lorem Ipsumm lorem lorem lorem Lorem Ipsumm lorem lorem lorem Lorem Ipsumm lorem lorem lorem Lorem Ipsumm lorem lorem lorem</p> */}
         </div>
 
+        
+
         <div className="cursor-pointer w-300 md:w-300 projectLists flex flex-wrap justify-between ">
             {projects.map((p) => (
                 <Projects key={p.id} img={p.img} link={p.link} appName={p.appName}/>
