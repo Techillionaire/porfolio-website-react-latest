@@ -13,9 +13,9 @@ export const projects = [
     },
     {
         id: 3,
-        img: 'https://img.freepik.com/free-photo/villa-house-model-key-drawing-retro-desktop-real-estate-sale-concept_1387-310.jpg?t=st=1650990240~exp=1650990840~hmac=946e32447d93f96f577213bd98f844829783da1778956c9a9b92402388c2cfc8&w=900',
+        img: 'https://img.freepik.com/free-vector/social-media-marketing-mobile-phone-concept_23-2148440819.jpg?t=st=1651060685~exp=1651061285~hmac=9165089844b511a48c9c2041e7631ed9650c441e86e3ce3fc36e988df5abb51a&w=740',
         link: 'https://www.google.com',
-        appName: 'House Hunting App',
+        appName: 'Social Media App',
     },
     {
         id: 4,
